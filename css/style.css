@@ -1,11 +1,28 @@
 
-
+/* navbar */
+.navbar{
+    position: relative;
+}
 /* Container for image text */
 .caption-container {
     text-align: center;
     background-color: #222;
     padding: 2px 16px;
     color: white;
+}
+.butn{
+    border-radius: inherit;
+    color: white;
+    font-weight: 500px;
+}
+.cart{
+    
+    position: fixed;
+    display: inline-block;
+ text-decoration: none;
+    padding-left: 70% ;
+    margin-left: 50px; 
+   
 }
 
 /* .row:after {
@@ -47,7 +64,7 @@ input[type=password] {
 
 /* Set a style for all buttons */
 #submit {
-    background-color: #061406;
+    background-color: #062f06;
     color: white;;
     padding: 12px 20px;
     margin: 8px 0;
