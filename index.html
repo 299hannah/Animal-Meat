@@ -1,22 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Animal-Meat | welcome </title>
 </head>
+
 <body>
     <div class="container">
 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+  <div class="container-fluid">
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+          <li class="nave-bar-item">
+              <a class="nav-link" href="#">Animal Meat</a></li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item">
+            <img src="./images/cart.png" width="40px" height="40px">
+          <!-- <a class="nav-link" href="#">About Us</a> -->
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Login
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="login">
+            <li><a class="dropdown-item" href="Register.html">Register</a></li>
+            <li><a class="dropdown-item" href="login.html">Login </a></li>
+            <li><a class="dropdown-item" href="index.html">Home</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
-    
+  </div>
+</nav>
+<div id="typing">welcome To<span> Animal-Meat Website </span></div>
+<div id="crow">|</div>
+
+     <!-- <div class="jumbotron" style="margin-top: 40px;">
+         <h1>Deals of the Day</h1>
+         <p>Kindly reach out to us if you have animals for slaughter!!</p>
+     </div> -->
+    </div>
+
+
+
+     <!-- Container for the image gallery -->
+<div class="container">
+<div class="slider" >
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <!-- <div class="numbertext">1 / 6</div> -->
+      <img src="./images/cow2.jpeg" width="850x " height="300px">
+  </div>
+
+  <div class="mySlides" >
+    <!-- <div class="numbertext">2 / 6</div> -->
+      <img src="./images/fish.jpeg" width=" 850x"  height="300px">
+  </div>
+
+  <div class="mySlides">
+    <!-- <div class="numbertext">3 / 6</div> -->
+      <img src="./images/hen2.jpeg" width="850px" height="300px">
+  </div>
+
+  <div class="mySlides">
+    <!-- <div class="numbertext">4 / 6</div> -->
+      <img src="./images/slide-meats.jpg" width="850px" height="300px">
+  </div>
+
+  <div class="mySlides">
+    <!-- <div class="numbertext">5 / 6</div> -->
+      <img src="./images/pig1.jpeg" width=850px  height="300px">
+  </div>
+
+  <div class="mySlides">
+    <!-- <div class="numbertext">6 / 6</div> -->
+      <img src="./images/sheep2.jpeg" width="850px" height="300px">
+  </div>
+ 
+</div>
+</div>
+
+  <!-- Next and previous buttons -->
+  <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+
+  <!-- Image text -->
+  <!-- <div class="caption-container">
+    <p id="caption"></p>
+  </div> -->
+
+
+<div class="container">
+            
+                <aside>
+                 
+                <label> Select Animal</lable>
+                    <div class="animal-selection">
+                    <div> Pigs</div>
+                    <div> Hens</div>
+                    <div> Sheep</div>
+                    <div> Cow</div> 
+                    <div> Goat</div> 
+                    </div>
+                    
+            </aside>
+            <br>
+
+            <div class="animals">
+
+                <div class=" row pvs col 12 text-center ">
+                    <figure class="col-md-3">
+                        <img src="/images/pig2.jpeg" alt="pigs" class="wiggle" width="300px" height="200px">
+
+                        <figcaption class="text-black txt">pigs<br> Each @ Ksh.10,000 </figcaption>
+                        <button>Add to cart</button>
+                    </figure>
+
+                    <figure class="col-md-3">
+                        <img src="/images/hen1.jpeg" alt="hen" class="wiggle" width="300px" height="200px">
+
+                        <figcaption class="text-black txt">Hens<br>Each @ Ksh. 500</figcaption>
+                        <button>Add to cart</button>
+                    </figure>
+                    <figure class="col-md-3">
+
+                        <img src="/images/sheep1.jpeg" alt="sheep" class="wiggle" width="300px" height="200px">
+                        <figcaption class="text-black txt">Sheep<br> Each @ Ksh. 5000<br></figcaption>
+                        <button>Add to cart</button>
+
+                    </figure>
+                    <figure class="col-md-3">
+
+                        <img src="/images/fish.jpeg" alt="fish" class="wiggle" width="300px" height="200px">
+                        <figcaption class="text-black txt">Fish<br>Each @ Ksh. 300</figcaption>
+                        <button>Add to cart</button>
+
+                    </figure>
+                </div>
+            </div>
+                <div class=" row text-center ">
+                    
+                    <figure class="col-md-3">
+
+                        <img src="/images/cow slaughter.jpeg" alt="sheep" class="wiggle" width="300px" height="200px">
+                        <figcaption class="text-black txt">Cow<br>Each @ Ksh.20000</figcaption>
+                        <button>Add to cart</button>
+
+                    </figure>
+                    <figure class="col-md-3">
+
+                        <img src="/images/goat1.jpeg" alt="goat" class="wiggle" width="300px" height="200px">
+                        <figcaption class="text-black txt">Goat<br>Each @ Ksh.4000</figcaption>
+                        <button>Add to cart</button>
+
+                    </figure>
+                    <figure class="col-md-3">
+
+                        <img src="/images/hen slaughter.jpeg" alt="sheep" class="wiggle" width="300px" height="200px">
+                        <figcaption class="text-black txt">Hens<br>Each @ Ksh.500</figcaption>
+                        <button>Add to cart</button>
+
+                    </figure>
+                    <figure class="col-md-3">
+
+                        <img src="/images/pig3.jpeg" alt="pigs" class="wiggle" width="300px" height="200px">
+                        <figcaption class="text-black txt">Pigs<br>Each @ Ksh.20000</figcaption>
+                        <button>Add to cart</button>
+
+                    </figure>
+         
+
+                </div>
+            </div>
+          
+
+
+<footer id="footer"><h3>Contact us:</h3><br>
+    <i class="fa fa-address-book" style="font-size:20px">cheruden25@gmail.com Or hannahwambui022@gmail.com</i>
+    <br><br>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
 </body>
 <script src="js/mdb.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/scripts.js"></script>
+
 <script src="js/bootstrap.js"></script>
+
 </html>
