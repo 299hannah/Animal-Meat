@@ -167,7 +167,6 @@ span.psw {
 
 
 /* Register */
-<<<<<<< HEAD
 .clear1{
      background-color: #138a4e;
      color: white;
@@ -176,11 +175,12 @@ span.psw {
      border: none;
      cursor: pointer;
      width: 20%;
-=======
+}
 #mc_embed_signup {
     background: #fff;
     clear: left;
     font: 14px Helvetica, Arial, sans-serif;
+}
 
 aside {
     width: 20%;
@@ -271,5 +271,4 @@ button:hover{
     background-size: cover;
     margin-bottom: 10px;
 
->>>>>>> fe2f8d17630f81304e7b29c3b8e05e8e2c61ff3b
 }
