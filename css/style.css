@@ -1,71 +1,28 @@
 
-/* * {
-    box-sizing: border-box;
-} */
-
-/* .container-fluid {
-    float: right;
-} */
-
-/* Position the image container (needed to position the left and right arrows) */
-/* .container {
+/* navbar */
+.navbar{
     position: relative;
-} */
-
-/* Hide the images by default */
-/* .mySlides {
-    display: none;
-} */
-
-/* Add a pointer when hovering over the thumbnail images */
-/* .cursor {
-    cursor: pointer;
-} */
-
-/* Next & previous buttons */
-/* .prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-} */
-
-/* Position the "next button" to the right */
-/* .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-} */
-
-/* On hover, add a black background color with a little bit see-through */
-/* .prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-} */
-
-/* Number text (1/3 etc) */
-/* .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-} */
-
+}
 /* Container for image text */
 .caption-container {
     text-align: center;
     background-color: #222;
     padding: 2px 16px;
     color: white;
+}
+.butn{
+    border-radius: inherit;
+    color: white;
+    font-weight: 500px;
+}
+.cart{
+    
+    position: fixed;
+    display: inline-block;
+ text-decoration: none;
+    padding-left: 70% ;
+    margin-left: 50px; 
+   
 }
 
 /* .row:after {
@@ -84,14 +41,9 @@
 .slider{
     margin-bottom: 2%;
 }
-.demo {
-    opacity: 0.6;
-}
 
-.active,
-.demo:hover {
-    opacity: 1;
-}
+
+
 
 /* login form */
 /* Bordered form */
@@ -112,7 +64,7 @@ input[type=password] {
 
 /* Set a style for all buttons */
 #submit {
-    background-color: #061406;
+    background-color: #062f06;
     color: white;;
     padding: 12px 20px;
     margin: 8px 0;
@@ -141,10 +93,6 @@ button:hover {
 } */
 
 /* Avatar image */
-img.avatar {
-    width: 40%;
-    border-radius: 50%;
-}
 
 /* The "Forgot password" text */
 span.psw {
@@ -173,6 +121,10 @@ span.psw {
 }
 .slider{
     float: right;
+    width: 78.2%;
+    padding-left: 25px ;
+    margin-left: 10px; 
+   
 }
 aside {
     width: 20%;
@@ -180,6 +132,7 @@ aside {
     margin-right: 10px; 
     height: 300px; 
     float: left;
+    text-align: center;
     /* font-style: italic; */
     background-color: lightgray;
   }
@@ -194,17 +147,7 @@ aside {
 
 
 
-.animals{
-    /* background-image: url('../images/dark3.jpeg'); */
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-
-.animals{
-    float:inline-end;
-    /* display: block; */
-}
 button:hover{
    
     cursor: pointer;
