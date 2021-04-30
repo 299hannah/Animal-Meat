@@ -8,6 +8,10 @@ You need to have git installed
 You can install it with the following command in your terminal
 `$ sudo apt install git-all`
 
+## Screenshot
+!['./images/animal.png']
+
+
 ### Setup
 To access this project on your local files, you can clone it using these steps
 Open your terminal
@@ -20,6 +24,6 @@ This will clone the repositoty into your local folder
  Javascript
  Git
 ### Live Site
-View [live](https://github.com/299hannah/Animal-Meat)
+View [live]( https://299hannah.github.io/Animal-Meat/)
 Licence
 This project is under the [MIT licence](licence)
