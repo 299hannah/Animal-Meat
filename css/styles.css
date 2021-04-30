@@ -10,9 +10,14 @@ h2{
 h2 span{
     color: red;
 }
+h4,p{
+    text-align: center;
+}
+
 header {
-    background-image: url('../images/meat.jpeg');
+    /* background-image: url('../images/meat.jpeg'); */
     background-repeat: no-repeat;
+    background-color: #9D2933;
     background-size: cover;
     background-position: center;
     height: 150px;

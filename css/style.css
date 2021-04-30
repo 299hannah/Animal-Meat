@@ -87,6 +87,11 @@ input[type=password] {
 /* Add a hover effect for buttons */
 button:hover {
     opacity: 0.8;
+   
+}
+button{
+    text-decoration: none;
+    
 }
 
 /* Extra style for the cancel button (red) */

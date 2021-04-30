@@ -5,12 +5,12 @@ body {
 form{
     font-size: 18px;
     padding: 20px;
-    border: 5px solid;
+    border-top: 5px solid;
     margin-top: 10px;
     padding-right: 30px;
     width: 500px;
     height: 300px;
-    text-align: center center;
+    /* text-align: center ; */
 }
 
 h1 {
@@ -26,7 +26,7 @@ h1 {
 
 
 input[type="text"] {
-    background-color: rgb(63, 5, 5);
+    background-color: whitesmoke;
     outline: 0;
     border-width: 0 0 2px;
     border-color: white;
@@ -34,19 +34,20 @@ input[type="text"] {
 }
 
 input[type="number"] {
-    background-color: rgb(63, 5, 5);
+    /* background-color: rgb(63, 5, 5); */
     outline: 0;
     border-width: 0 0 2px;
     border-color: white;
     color: white;
+    
 }
 
 input[type="password"] {
-    background-color: rgb(63, 5, 5);
+    text-align: center ;
     outline: 0;
     border-width: 0 0 2px;
     border-color: white;
-    color: white;
+   
 }
 
 input[type="submit"] {
@@ -76,5 +77,63 @@ a, li a {
     color: white;
 }
 .log-in{
-    text-align: center;
+    margin-left: 300px;
+}
+.password{
+    background-color: wheat;
+}
+
+header {
+    /* background-image: url('../images/meat.jpeg'); */
+    background-repeat: no-repeat;
+    background-color: #9D2933;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: rgba(10,10,10,0.3);
+}
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 60px 0 60px;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+nav li span {
+    padding-left: 5px;
+}
+
+li a {
+    padding: 5px;
+    background-color: #fff;
+    text-decoration: none;;
+}
+.log{
+    padding-left: 10px;
+    padding-right: 10px;
 }
